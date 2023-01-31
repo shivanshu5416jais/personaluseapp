@@ -8,7 +8,7 @@ import { loginSubject } from './helpers/sharedSubjects';
 })
 export class AppComponent implements OnInit  {
   title = 'jobManagement';
-  showWelcome:boolean=true;
+  showWelcome:any=true;
 constructor(){
 
 }
